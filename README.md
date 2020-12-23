@@ -7,13 +7,12 @@
     A Ruby application
     <br />
     <br />
-    <a href="https://stormy-ravine-81598.herokuapp.com/">View Demo</a>
     ·
     <a href="https://github.com/kobiyoyo/DenBot/issues">Report Bug</a>
     ·
     <a href="https://github.com/kobiyoyo/DenBot/issues">Request Feature</a>
   </p>
-  <img src="app/assets/images/screenshot.png" alt="facebook-project">
+
 </p>
 
 
@@ -33,7 +32,7 @@ This is a slack bot that performs basic arithmetic operations .
 
 
 ## Getting started
-> To get started with the app,create an `.env` file with this and get your api key 
+> To get started with the app,create an `.env` file with this and get your api [key](https://hara-wut7272.slack.com/apps/new/A0F7YS25R-bots) 
 
 ```
 SLACK_API_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
