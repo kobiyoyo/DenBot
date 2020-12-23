@@ -18,8 +18,12 @@
 
 
 ## Description
-This is an app that is used for creating different groups and adding your tasks to these groups, the tasks include hours spent, which is a great tool to track and organize your time.
+This is a slack bot that performs basic arithmetic operations .
 
+### Commands
+- info
+- greet
+- den 3+3 or 3+3
 
 ## Built With
 - Ruby 
@@ -29,14 +33,21 @@ This is an app that is used for creating different groups and adding your tasks 
 
 
 ## Getting started
-> To get started with the app, clone the repo and then install the needed gems:
+> To get started with the app,create an `.env` file with this and get your api key 
 
 ```
-$ bundle install --without production
+SLACK_API_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+```
+
+> Clone the repo and then install the needed gems:
+
+
+```
+$ bundle install
 
 $ foreman start
 
-$ rails db:migrate
 ```
 
 > Finally, run the test suite to verify that everything is working correctly:
