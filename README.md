@@ -1,17 +1,17 @@
 # DenBot
 <br />
 <p align="center">
-  <h1 align="center"> Task APP</h1>
+  <h1 align="center">DenBot</h1>
  
   <p align="center">
-    A Ruby on Rails application
+    A Ruby application
     <br />
     <br />
     <a href="https://stormy-ravine-81598.herokuapp.com/">View Demo</a>
     ·
-    <a href="https://github.com/kobiyoyo/TaskApp/issues">Report Bug</a>
+    <a href="https://github.com/kobiyoyo/DenBot/issues">Report Bug</a>
     ·
-    <a href="https://github.com/kobiyoyo/TaskApp/issues">Request Feature</a>
+    <a href="https://github.com/kobiyoyo/DenBot/issues">Request Feature</a>
   </p>
   <img src="app/assets/images/screenshot.png" alt="facebook-project">
 </p>
@@ -23,60 +23,27 @@ This is an app that is used for creating different groups and adding your tasks 
 
 ## Built With
 - Ruby 
-- Ruby on Rails
-- Bootstrap 4
-- Bullet
-- Rubocop
-- PostgreSQL
-
-## Features
-- A user can signup/login
-- A user can create, delete, edit groups of tasks.
-- A user can create, delete, edit tasks.
-
-## Future features
-* User can create a timer for each task.
-* Users can add description to task.
-* Logout after 5 minutes of inactivity
+- Dentaku
+- Slack-Ruby-Bot
 
 
-## Environment
-- Ruby on Rails version 6.0
-- [Bootstrap-sass](https://www.rubydoc.info/gems/bootstrap-sass/3.3.6) is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications version 3.3.7
-- Puma: A Ruby Web Server Built For Concurrency version '3.9.1'
 
 ## Getting started
 > To get started with the app, clone the repo and then install the needed gems:
 
 ```
 $ bundle install --without production
-```
 
-> Next,create & migrate the database:
-```
-$ rails db:create
+$ foreman start
 
 $ rails db:migrate
 ```
 
-> Run the app in a local server:
-
-```
-$ rails server
-```
 > Finally, run the test suite to verify that everything is working correctly:
 
 ```
 $ rspec
 ```
-> You can then drop into rails console to explore the models
-
-```sh
-$  rails c
-```
-## Live version
-
-[Demo](https://stormy-ravine-81598.herokuapp.com/)
 
 ## Authors
 
@@ -91,9 +58,9 @@ $  rails c
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/kobiyoyo/TaskApp/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/kobiyoyo/DenBot/issues).
 
-1. Fork it (https://github.com/kobiyoyo/TaskApp/fork)
+1. Fork it (https://github.com/kobiyoyo/DenBot/fork)
 2. Create your working branch (git checkout -b [choose-a-name])
 3. Commit your changes (git commit -am 'what this commit will fix/add')
 4. Push to the branch (git push origin feature/[feature-name])

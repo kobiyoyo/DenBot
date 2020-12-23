@@ -1,4 +1,3 @@
-
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 
 require 'dotenv'
@@ -13,8 +12,8 @@ Thread.new do
   begin
     SlackMathbot::Bot.run
   rescue Exception => e
-    STDERR.puts "ERROR: #{e}"
-    STDERR.puts e.backtrace
+    warn "ERROR: #{e}"
+    warn e.backtrace
     raise e
   end
 end
