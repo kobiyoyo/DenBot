@@ -51,7 +51,7 @@ $ foreman start
 
 ```
 
-> Finally, run the test suite to verify that everything is working correctly:
+> Finally, run the test suite:
 
 ```
 $ rspec
